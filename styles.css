@@ -4,25 +4,42 @@
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    
+    padding: 100px;
 }
-
-
 .hero-secondary-text{
     font-weight: 18;
     font-size: 18px;
     color: #E5E7EB;
 }
-
 .hero-left{
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
+}
+button {
+    border-radius: 6px;
+    max-width: 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+
+}
+button:hover{
+    background-color:#1F2937;
+    transition: 0.4s;
+}
+button:focus{
+    background-color:#1F2937;
+    transition: 0.4s;
+}
+button:active{
+   background-color: whitesmoke;
+   transition: 0.2s; 
 }
 .header-logo-text{
     font-size: 24px;
-    color: #F9FAF8;
+    color: #F9FAF8
 }
-
 .header{
     display: flex;
     align-items: center;
@@ -33,7 +50,6 @@
     color: #F9FAF8;
     margin-left: 100px;
 }
-
 .headerlinks{
     display: flex;
     flex: 1;
@@ -43,7 +59,6 @@
     margin-right: 100px;
 
 }
-
 .headerlinks li{
     margin-left: 50px;
     font-size: 18px;
@@ -52,3 +67,70 @@
 .topofpagebox {
 background-color: #1F2937;
 }
+.info-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.infobox-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+.infoarea{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150 px;
+}
+.infobox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 200;
+    padding: 50px;
+}
+.quote-author{
+    display: flex;
+    justify-content: right;
+    font-size: 24px;
+    font-weight: 800;
+}
+.calltoaction-section{
+    background-color: #3882F6;
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+.calltoaction-text{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+
+}
+
+.calltoaction-section button{
+    max-height: 50px;
+}
+
