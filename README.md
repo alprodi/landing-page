@@ -1,1 +1,1 @@
-# landing-page
+Landing-page project from The Odin project, using HTML, CSS, & Flexbox.
