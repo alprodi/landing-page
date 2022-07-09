@@ -23,7 +23,8 @@ html {
     border: 2px solid white;
     padding: 5px;
     border-radius: 75%;
-    
+    text-shadow: 4px 4px black;
+    box-shadow: 4px 4px black;
 }
 .headerlinks{
     display: flex;
@@ -36,8 +37,13 @@ html {
 }
 .headerlinks li{
     margin-left: 50px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 200;
+}
+.headerlinks a{
+    text-decoration: none;
+    display: block;
+    color: white;
 }
 
 .topofpagebox {
@@ -51,11 +57,13 @@ background-color: #1F2937;
     display: flex;
     align-items: center;
     padding: 100px;
+    text-shadow: 4px 4px black;
 }
 .hero-secondary-text{
     font-weight: 18;
     font-size: 18px;
     color: #E5E7EB;
+    text-shadow: none;
 }
 .hero-left{
     display: flex;
@@ -67,6 +75,7 @@ background-color: #1F2937;
     background-color: #E5E7EB;
     color: black;
     padding: 10px;
+    text-shadow: none;
 
 }
 button {
@@ -75,17 +84,25 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: 1px solid #F9FAF8;
+    box-shadow:  2px 2px black;
 
 }
+
 button:hover{
     background-color:#1F2937;
     transition: 0.4s;
+}
+.headerlinks a:hover{
+    background-color:#0f141b;
+    transition: 0.4s;
+    cursor: pointer;
 }
 button:focus{
     background-color:#1F2937;
     transition: 0.4s;
 }
-button:active{
+button:active,
+.headerlinks a:active{
    background-color: whitesmoke;
    transition: 0.2s; 
 }
@@ -103,6 +120,7 @@ button:active{
     font-size: 36px;
     color: #1F2937;
     font-weight: 800;
+    text-shadow: 1px 1px gray;
 }
 .infoarea{
     margin-left: 20px;
