@@ -7,6 +7,10 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+.topofpagebox {
+    background-color: #1F2937;
+    margin: 
+    }
 .header{
     display: flex;
     align-items: center;
@@ -45,11 +49,6 @@ html {
     display: block;
     color: white;
 }
-
-.topofpagebox {
-background-color: #1F2937;
-}
-
 .hero-box{
     font-weight: 1;
     font-size: 48px;
@@ -146,7 +145,9 @@ button:active,
     font-style: italic;
     color: #1F2937;
     font-weight: 200;
-    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
 }
 .quote-author{
     display: flex;
