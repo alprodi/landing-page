@@ -1,3 +1,49 @@
+html {
+    background-color:mintcream
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-left: 100px;
+}
+.header-logo{
+    font-size: 18px;
+    color: #F9FAF8;;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 75%;
+    
+}
+.headerlinks{
+    display: flex;
+    flex: 1;
+    color: #F9FAF8;
+    list-style-type: none;
+    justify-content: right;
+    margin-right: 100px;
+
+}
+.headerlinks li{
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.topofpagebox {
+background-color: #1F2937;
+}
+
 .hero-box{
     font-weight: 1;
     font-size: 48px;
@@ -15,6 +61,13 @@
     display: flex;
     flex-direction: column;
     margin-right: 50px;
+}
+
+.hero-image{
+    background-color: #E5E7EB;
+    color: black;
+    padding: 10px;
+
 }
 button {
     border-radius: 6px;
@@ -35,37 +88,6 @@ button:focus{
 button:active{
    background-color: whitesmoke;
    transition: 0.2s; 
-}
-.header-logo-text{
-    font-size: 24px;
-    color: #F9FAF8
-}
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 16px;
-    font-size: 18px;
-    font-weight: 900;
-    color: #F9FAF8;
-    margin-left: 100px;
-}
-.headerlinks{
-    display: flex;
-    flex: 1;
-    color: #F9FAF8;
-    list-style-type: none;
-    justify-content: right;
-    margin-right: 100px;
-
-}
-.headerlinks li{
-    margin-left: 50px;
-    font-size: 18px;
-}
-
-.topofpagebox {
-background-color: #1F2937;
 }
 .info-wrapper{
     display: flex;
@@ -127,10 +149,22 @@ background-color: #1F2937;
     display: flex;
     flex-direction: column;
     color: #E5E7EB;
-
+    font-size: 24px;
+    font-weight: 800;
 }
 
+.calltoaction-subtext{
+    font-size: 18px;
+    font-weight: 200;
+}
 .calltoaction-section button{
     max-height: 50px;
 }
 
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
